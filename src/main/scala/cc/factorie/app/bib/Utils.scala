@@ -911,6 +911,7 @@ object EntityUtils{
   }
 }
 
+
 object LDAUtils{
   object WordSeqDomain extends CategoricalSeqDomain[String]
   val model = DirectedModel()
